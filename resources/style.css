@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+.color-container {
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px black solid;
+
+}
+
+.font-container {
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px black solid;
+}
+
+.color-panel {
+    text-align: center;
+    width: 45%;
+    margin: .2rem .5rem;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+#wheat {
+    background-color: wheat;
+}
+
+#goldenrod {
+    background-color: goldenrod;
+}
+
+#saddlebrown {
+    color: white;
+    background-color: saddlebrown;
+}
+
+#maroon {
+    color: white;
+    background-color: maroon;
+}
+
+.font-panel {
+    margin: .2rem .5rem;
+    font-size: 1.2rem;
+}
+
+#Almendra {
+    font-family: Almendra;
+}
+
+#Montserrat {
+    font-family: Montserrat;
+}
