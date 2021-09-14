@@ -11,44 +11,65 @@
         <h1>Connors Website Style Guide</h1>
         <h2>For ThreePointFive.ca</h2>
 
-        <div class="color-container">
+        <div class="container">
             <h3>Colors</h3>
 
-            <div class="color-box" id="wheat">
+            <div class="color-panel" id="wheat">
                 <p>Wheat</p>
                 <p>#F5DEB3</p>
             </div>
 
-            <div class="color-box" id="goldenrod">
+            <div class="color-panel" id="goldenrod">
                 <p>GoldenRod</p>
                 <p>#DAA520</p>
             </div>
             
-            <div class="color-box" id="saddlebrown">
+            <div class="color-panel" id="saddlebrown">
                 <p>SaddleBrown</p>
                 <p>#8B4513</p>
             </div>
 
-            <div class="color-box" id="maroon">
+            <div class="color-panel" id="maroon">
                 <p>Maroon</p>
                 <p>#800000</p>
             </div>
         </div>
 
-        <div class="font-container">
+        <div class="container">
             <h3>Fonts</h3>
 
-            <div class="font-box" id="Almendra">
+            <div class="font-panel" id="Almendra">
+
                 <h4>Almendra</h4>
-                <ul>
-                    <li>The quick brown fox jumps over the lazy dog.</li>
-                    <li><em>The quick brown fox jumps over the lazy dog.</em></li>
-                    <li><strong>The quick brown fox jumps over the lazy dog.</strong></li>
-                </ul>
+
+                <table>
+                    <thead>
+                        <th>Font Style</th>
+                        <th>Font Weight</th>
+                        <th>Example Text</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Regular</td>
+                            <td>400</td>
+                            <td>The quick brown fox jumps over the lazy dog.</td>
+                        </tr>
+                        <tr>
+                            <td>Regular Italic</td>
+                            <td>400</td>
+                            <td><em>The quick brown fox jumps over the lazy dog.</em></td>
+                        </tr>
+                        <tr>
+                            <td>Bold</td>
+                            <td>700</td>
+                            <td><strong>The quick brown fox jumps over the lazy dog.</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <aside>@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;1,400;1,700&display=swap');</aside>
             </div>
 
-            <div class="font-box" id="Montserrat">
+            <div class="font-panel" id="Montserrat">
                 <h4>Montserrat</h4>
                 <ul>
                     <li>The quick brown fox jumps over the lazy dog.</li>
@@ -59,10 +80,10 @@
             </div>
         </div>
         
-        <div class="text-styles-container">
+        <div class="container">
             <h3>Text Styles</h3>
 
-            <div class="text-styles-box" id="text-h1">
+            <div class="text-styles-panel" id="text-h1">
                 <h4>H1: Main Page Heading</h4>
                 <ul>
                     <li>Font-weight: </li>

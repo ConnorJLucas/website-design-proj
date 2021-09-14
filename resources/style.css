@@ -5,22 +5,16 @@ body {
     font-family: Montserrat;
 }
 
-.color-container {
+.container {
     padding: 2rem;
     margin: 1rem;
     border: 1px black solid;
-
 }
 
-.font-container {
-    padding: 2rem;
-    margin: 2rem;
-    border: 1px black solid;
-}
 
 .color-panel {
     text-align: center;
-    width: 45%;
+    width: 40%;
     margin: .2rem .5rem;
     display: inline-block;
     font-size: 1.2rem;
@@ -47,6 +41,27 @@ body {
 .font-panel {
     margin: .2rem .5rem;
     font-size: 1.2rem;
+}
+
+table {
+    border: 1px black solid;
+    width: 100%
+}
+
+thead {
+    text-align: left;
+}
+
+td,
+tr,
+th {
+    border: 1px gray solid;
+}
+
+table,
+td,
+tr {
+    border-collapse: collapse;
 }
 
 #Almendra {
