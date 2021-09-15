@@ -82,3 +82,32 @@ h2 {
     width: 40%;
     text-align: left;
 }
+
+#text-h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Almendra";
+    color: black;
+}
+
+#text-h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: "Almendra";
+    color: black;
+}
+
+#text-h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: "Almendra";
+    color: black;
+}
+
+#text-p {
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    color: black;
+}
