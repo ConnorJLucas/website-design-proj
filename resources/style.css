@@ -10,13 +10,14 @@ body {
     padding: 2rem;
     margin: 1rem;
     border: 1px black solid;
+    text-align: center;
 }
 
 /* color rules */
 .color-panel {
     text-align: center;
     width: 40%;
-    margin: .2rem .5rem;
+    margin: .5rem;
     display: inline-block;
     font-size: 1.2rem;
 }
@@ -67,4 +68,17 @@ tr,
 th {
     border: 1px gray solid;
     padding: .5rem;
+}
+
+/* text style rules */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.text-styles-panel {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
 }
