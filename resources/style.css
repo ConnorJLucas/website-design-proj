@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* body and container */
 body {
     font-family: Montserrat;
 }
@@ -11,7 +12,7 @@ body {
     border: 1px black solid;
 }
 
-
+/* color rules */
 .color-panel {
     text-align: center;
     width: 40%;
@@ -38,30 +39,10 @@ body {
     background-color: maroon;
 }
 
+/* font rules */
 .font-panel {
     margin: .2rem .5rem;
     font-size: 1.2rem;
-}
-
-table {
-    border: 1px black solid;
-    width: 100%
-}
-
-thead {
-    text-align: left;
-}
-
-td,
-tr,
-th {
-    border: 1px gray solid;
-}
-
-table,
-td,
-tr {
-    border-collapse: collapse;
 }
 
 #Almendra {
@@ -70,4 +51,20 @@ tr {
 
 #Montserrat {
     font-family: Montserrat;
+}
+
+/* table rules */
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+
+}
+
+td,
+tr,
+th {
+    border: 1px gray solid;
+    padding: .5rem;
 }
